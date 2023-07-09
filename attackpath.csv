@@ -1,0 +1,25 @@
+Attack Path,Attack Success Probability,Attack Impact,Security Risk,CVSS Base Score
+Humidity Sensor->Ventilator,0.07898399999999997,7.2,1.194,10.8
+Humidity Sensor->Air Conditioner,0.14375087999999994,7.2,1.194,10.8
+Humidity Sensor->Heater,0.2588200368,9.5,2.847,15.100000000000001
+Ventilator,0.17999999999999994,3.6,0.648,5.5
+CO2 Sensor->Ventilator,0.03239999999999998,7.2,1.296,11
+Heater,0.589836,5.9,2.301,9.8
+Window Sensor->Heater,0.10617047999999997,9.5,2.9490000000000003,15.3
+Window Sensor->Air Conditioner,0.05896799999999996,7.2,1.296,11
+Air Conditioner,0.3275999999999999,3.6,0.648,5.5
+CO Detection Sensor->Fire Alarm,0.026207999999999978,9.5,1.12,12.2
+Occupancy Sensor->Heater,0.07078032,7.300000000000001,2.4690000000000003,12.5
+Occupancy Sensor->Thermometer->Fire Alarm,0.039311999999999986,5,0.8160000000000001,8.2
+Occupancy Sensor->Air Conditioner,0.039311999999999986,5,0.8160000000000001,8.2
+Thermometer->Fire Alarm,0.3275999999999999,3.6,0.648,5.5
+Fire Alarm,0.3275999999999999,3.6,0.648,5.5
+Motion Sensor->Occupancy Sensor->Heater,0.027604324800000003,10.9,3.873,20
+Motion Sensor->Occupancy Sensor->Thermometer->Fire Alarm,0.015331679999999995,8.6,2.22,15.7
+Motion Sensor->Occupancy Sensor->Air Conditioner,0.015331679999999995,8.6,2.22,15.7
+Smoke Sensor->Fire Alarm,0.12776399999999996,9.5,2.9490000000000003,15.3
+Media Player->Screen Projector->Smart TV->Speaker,0.014110704659519996,18.1,4.974,26.3
+Media Player->Smart TV->Speaker,0.028232702399999993,12.200000000000001,2.673,19.6
+Screen Projector->Smart TV->Speaker,0.0574540092,12.200000000000001,4.3260000000000005,19.6
+Smart TV->Speaker,0.114954,6.300000000000001,2.0250000000000004,12.9
+Speaker,0.4998,3.6,1.4040000000000001,7.5
